@@ -1,0 +1,428 @@
+*{
+    font-family: 'Yeseva One', cursive;
+}
+/*header section start*/
+
+.header{
+    background: url(../image/banner-bg.png);
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .navbar{
+    padding-top: 15px;
+}
+.logo{
+    padding: 15px 0px;
+}
+.header .navbar .nav-item{}
+.header .navbar .nav-item.active{
+    color: #ffff;
+}
+.header .navbar .nav-item .nav-link{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+a.icon {
+    color: #dab33e;
+    padding: 15px 5px;
+    font-size: 17px;
+}
+a.icon:hover{
+    color: #ffff;
+}
+.header .hero-area{
+    text-align: center;
+    padding: 51px 0;
+}
+.header .hero-area h1{
+    font-size: 85px;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.header .hero-area .decoration-img{padding-bottom: 70px;}
+.header .hero-area .book-btn{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    border: 1px solid #fff;
+    padding: 14px 17px;
+}
+.header .hero-area .menu-btn{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    border: 1px solid #fff;
+    padding: 14px 17px;
+    margin: 10px;
+}
+.header .hero-area .menu-btn:hover{
+    background: #ffffff54;
+    
+    transition: 0.5s linear;
+}
+.header .hero-area .book-btn:hover{
+    background: #111111cc;
+    
+    transition: 0.5s linear;
+}
+.header .hero-area li{}
+/*header section css end*/
+/*food section start*/
+.food-section{
+    height: 100%;
+    background-position: center;
+    background: url(../image/section-bg.png);
+    background-size: cover;
+}
+.food-section .food-details{
+    padding-top: 80px;
+    text-align: center;
+}
+.food-section .food-details h1{
+    font-size: 36px;
+    color: #cc9900;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.food-section .food-details .decoration-img{
+    padding-bottom: 15px;
+}
+.food-section .food-details p{
+    font-size: 16px;
+    font-family: lato;
+    line-height: 22px;
+    color: #4c4c4c;
+    padding: 0 15px;
+    padding-bottom: 30px;
+}
+.food-section .dish-img{
+    padding-top: 35px;
+    padding-left: 15px;
+}
+/*food section end*/
+/*ingredients section css start*/
+.ingredients{
+    background: url(../image/sec-bg.png);
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+}
+.ingredients .ingredients-details{
+    background: url(../image/text-bg.png);
+    float: right;
+    /* height: 380px; */
+    text-align: center;
+    margin: 100px 0;
+    margin-left: 50%;
+}
+.ingredients .ingredients-details h1{
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 100;
+    padding: 10px 0;
+    padding-top: 72px;
+}
+.ingredients .ingredients-details .decoration-img{
+    padding-bottom: 10px;
+}
+.ingredients .ingredients-details p{
+    font-size: 20px;
+    font-family: lato;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+.ingredients .ingredients-details .mocup{
+    padding-bottom: 40px;
+}
+/*ingredients section css end*/
+/*pricing section css start*/
+.pricing{
+    background: url(../image/pricing-bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pricing .pricing-item1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pricing .pricing-item1 h1{
+    font-size: 36px;
+    color: #cc9900;
+}
+.pricing .pricing-item1 .decoration-img{}
+.pricing .pricing-item1 h2{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 100;
+    text-align: center;
+}
+.pricing .pricing-item1 span{
+    padding-left: 246px;
+}
+.pricing .pricing-item1 p{
+    text-align: center;
+    font-family: lato;
+    padding: 10px 0;
+}
+
+
+.pricing .pricing-item2{
+    text-align: center;
+    float: right;
+}
+
+.pricing .pricing-item2 h1{
+    font-size: 36px;
+    color: #cc9900;
+}
+.pricing .pricing-item2 .decoration-img{}
+.pricing .pricing-item2 h2{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 100;
+    text-align: center;
+}
+.pricing .pricing-item2 span{
+    padding-left: 242px;
+}
+.pricing .pricing-item2 p{
+    text-align: center;
+    font-family: lato;
+}
+.pricing .pricing-item2 .sps{
+    border: 1px solid #cc9900;
+    padding: 0 0px;
+    margin: 0 50px;
+}
+
+
+.pricing .pricing-item2 h3{
+    font-size: 14px;
+    text-align: right;
+    margin: 0px 48px;
+    background: url(../image/tag.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 0 10px;
+}
+
+/*pricing section css end*/
+/*review section css start*/
+.review{
+    background: url(../image/review-bg.png);
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review .review-details{
+    text-align: center;
+    background: #0000008c;
+    margin: 5% 21%;
+    padding: 3%;
+}
+.review .review-details h1{
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 100;
+    padding: 10px 0;
+    padding-top: 72px;
+}
+.review .review-details .decoration-img{
+    padding-bottom: 10px;
+}
+.review .review-details span{
+    font-size: 57px;
+    padding: 10px;
+}
+.review .review-details p{
+    font-size: 20px;
+    /* font-family: lato; */
+    color: #fff;
+    padding: 0 15px;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+.review .review-details h4{
+    font-size: 20px;
+    color: #fff;
+    font-family: lato;
+}
+/*review section css end*/
+.booking{
+    background: url(../image/booking-bg.png);
+    height: 100%;
+    background-size: cover;
+}
+.booking-img{
+    margin: 14% 0;
+}
+.booking .booking-text{
+     padding-top: 80px;
+    text-align: center;
+}
+.booking .booking-text h1{
+    font-size: 36px;
+    color: #cc9900;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.booking .booking-text p{
+    font-size: 16px;
+    font-family: lato;
+    line-height: 22px;
+    color: #4c4c4c;
+    padding: 0 49px;
+    /* padding-bottom: 30px; */
+}
+.booking .booking-text .decoration-img{
+    padding-bottom: 15px;
+}
+.booking .booking-info{
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.booking .booking-info .booking-info-2{
+    width: 45%;
+    float: left;
+    margin: 10px 0;
+    color: #dab33e;
+    text-transform: uppercase;
+}
+.booking .booking-info .booking-info-2 .info-control{font-family: lato;text-transform: none !important;}
+button.btn.book-btn {
+    background: #c9a131;
+    border-radius: unset;
+    font-size: 17px;
+    color: #fff;
+    font-family: lato;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 20px 20%;
+}
+/*footer start*/
+.footer{
+    background: #191919;
+    height: 100%;
+}
+.footer .footer-text{}
+.footer .footer-text{
+    color: #fff;
+    text-align: center;
+    margin: 40px 0;
+}
+.footer .footer-text h1{
+    font-size: 20px;
+}
+.footer .footer-text p{
+    font-family: lato;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+.footer .footer-text a{
+    color: #fff;
+}
+.footer .footer-text a:hover{
+    color: #C9A131;
+}
+
+/*responcive start*/
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header .navbar .nav-item .nav-link {
+    font-size: 17px;
+}
+.ingredients .ingredients-details {
+    margin-left: 0;
+}
+.booking .booking-info .booking-info-2 {
+    font-size: 13px;
+}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.header .hero-area h1 {
+    font-size: 54px;}
+.review .review-details p {
+    font-size: 17px;}
+    .booking-img {
+    margin: 14% 50px;
+}
+.footer .footer-text {
+    color: #fff;
+    text-align: center;
+    margin: 40px 176px;
+}    
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .header .hero-area .decoration-img {
+    visibility: visible;
+}
+.header .hero-area h1 {
+    font-size: 40px;
+    color: #fff;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.food-section .food-details {
+    padding-top: 80px;
+    text-align: center;
+    margin: 0 53px;
+}
+.review .review-details {
+    margin: 5% 0%;
+    padding: 3%;
+}
+}
+
+@media (max-width: 375px) {
+    .ingredients .ingredients-details {
+    background: url(../image/text-bg.png);
+    float: none;
+    /* height: 380px; */
+    text-align: center;
+    margin: 100px 0;
+    margin-left: 0;
+}
+.pricing .pricing-item1 span {
+    padding-left: 208px;
+}
+.pricing .pricing-item2 span {
+    padding-left: 209px;
+}
+.booking .booking-info .booking-info-2 {
+    font-size: 14px;
+}
+}
